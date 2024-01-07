@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'piyush', piyush;
+  font-size: 16px;
+}
+
+.showPage {
+  background: url(../images/egypt.jpg)center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.showPage h1 {
+  color: #f0f0f0;
+  font-size: 3.5rem;
+}
+
+.showPage p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.btn-1 {
+  background: linear-gradient(to right, #e5e1e4, #86e2d9);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.btn-1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-1:active {
+  transform: scale(0.95);
+}
+
+
+
+
+.btn-1:hover {
+  background: #cc4400;
+}
+
+#section-1 {
+   text-align: center;
+   padding: 40px;
+}
+
+#section-1 h1 {
+  margin-bottom: 20px;
+}
+
+#section-2 {
+  margin-bottom: 20px;
+}
+
+#section-2 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex-columns {
+  display: flex;
+  padding: 20px;
+}
+
+footer {
+  min-height: 150px;
+  background: #dcb4c9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
